@@ -1,7 +1,7 @@
 # MDK Debrief Generator
 Create your own pre/post-game debriefings from MDK.
 
-Renders text the way MDK does it — actual bitmap fonts pulled from the game data, actual mission backgrounds, actual teletype sound. Type something, watch it clack out letter by letter, export it as a GIF or PNG. Optional CRT Scanline effect(does not save with image). All 25 original briefing and debriefing texts are in the preset dropdown, including the cut debriefings.
+Renders text the way MDK does it — actual bitmap fonts pulled from the game data, actual mission backgrounds, actual teletype sound. Type something, watch it clack out letter by letter, export it as a GIF or PNG. Optional CRT Scanline effect(does not save with image). All 25 original and cut briefing and debriefing texts are in the preset dropdown.
 
 ## Running it
 Double click "run_me.bat" to start a local server and load the app in your default browser. Be sure to close the console window when finished.
