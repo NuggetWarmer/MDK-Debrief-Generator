@@ -53,6 +53,89 @@ textarea{resize:vertical;min-height:48px;max-height:100px}
 .rec-badge{display:none;position:absolute;top:24px;right:24px;background:#a00;color:#fff;font-size:10px;font-family:'Share Tech Mono',monospace;padding:3px 8px;border-radius:2px;letter-spacing:0.1em;animation:recblink 1s ease-in-out infinite;z-index:10}
 @keyframes recblink{0%,100%{opacity:1}50%{opacity:0.4}}
 .foot{padding:6px 14px;font-size:9px;color:#444;text-align:center;letter-spacing:0.08em;margin-top:auto}
+    /* Mobile Friendly Overrides */
+    @media (max-width: 1080px) {
+        html, body {
+            height: auto;
+            overflow: auto;
+            display: block;
+        }
+
+        .dash {
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: 1fr;
+            max-height: none;
+            height: auto;
+        }
+
+        .main {
+            padding: 10px 10px 0 10px;
+            order: 1;
+            width: 100%;
+        }
+
+        .frame {
+            width: 100% !important;
+            height: auto !important;
+            max-width: 600px;
+            margin: 0 auto 0 auto;
+            aspect-ratio: 600 / 360;
+            margin-bottom: 5px;
+        }
+
+            .frame canvas {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+        .sidebar {
+            order: 2;
+            width: 100%;
+            border-left: none;
+            border-top: 2px solid #1a1508;
+            max-height: none;
+            padding: 0px 20px 20px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #hdrCvs {
+            height: 66px !important;
+            width: auto !important;
+            margin: 0 auto !important;
+        }
+
+        .sidebar h1 {
+            order: 100;
+            margin: 0 auto;
+            padding-top: 20px;
+            border-top: 1px solid #1a1508;
+            text-align: center;
+        }
+
+        .btns {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr !important;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .btn {
+            width: 100% !important;
+            margin: 0 !important;
+        }
+
+            .btn.wide {
+                grid-column: span 2 !important;
+            }
+    }
+
+    @media (max-width: 480px) {
+        .btns {
+            grid-template-columns: 1fr 1fr !important;
+        }
+    }
 </style>
 </head>
 <body class="crt">
