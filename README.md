@@ -24,4 +24,4 @@ assets/
 
 ## Credits
 
-Assets extracted from **MDK** (1997, Shiny Entertainment / Playmates Interactive). Fan project, not affiliated. Font decoding informed by [BuXXe's MDKTools](https://github.com/BuXXe/MDKTools), [brandonhare/mdk-parse](https://github.com/brandonhare/mdk-parse), and [Calinou's Godot reimplementation](https://github.com/Calinou/mdk).
+Assets extracted from **MDK** (1997, Shiny Entertainment / Playmates Interactive). Fan project, not affiliated. Font decoding informed by [BuXXe's MDKTools](https://github.com/BuXXe/MDKTools), [brandonhare/mdk-parse](https://github.com/brandonhare/mdk-parse), and [Calinou's Godot reimplementation](https://github.com/Calinou/godot-mdk).
